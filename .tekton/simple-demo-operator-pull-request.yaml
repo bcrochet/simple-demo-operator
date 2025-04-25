@@ -598,7 +598,8 @@ spec:
       optional: true
     - name: netrc
       optional: true
-  taskRunTemplate: {}
+  taskRunTemplate:
+    serviceAccountName: build-pipeline-simple-demo-operator
   workspaces:
   - name: workspace
     volumeClaimTemplate:
